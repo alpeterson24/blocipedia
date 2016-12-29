@@ -1,2 +1,9 @@
-<h1>Wikis#show</h1>
-<p>Find me in app/views/wikis/show.html.erb</p>
+<h1>
+    <%= @wiki.title %> <br>
+    <small>
+        submitted <%= time_ago_in_words(@wiki.created_at) %> ago
+    </small>
+    <%= link_to "Edit Wiki", edit_wiki_path, class: 'btn btn-primary' %>
+    <%= link_to "Delete Wiki", @wiki, method: :delete, class: 'btn btn-danger', data: {confirm: 'Are you sure you want to delete this wiki?'} %>
+</h1>
+<p><%= @wiki.body %> </p>
