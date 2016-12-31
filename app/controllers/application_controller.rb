@@ -9,6 +9,6 @@ class ApplicationController < ActionController::Base
 
   def user_not_authorized
     flash[:alert] = "You are not authorized to change or remove this wiki."
-    redirect_to root_path
+    render :show
   end
 end
