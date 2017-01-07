@@ -13,10 +13,10 @@ class CollaboratorsController < ApplicationController
     wiki = Wiki.find(params[:wiki_id])
     collaborators = []
     wiki.collaborators.destroy_all
-    params[:collaborators].each do |c|
+    params[:collaborators].each do |user_id|
         collaborators << {
             wiki_id: wiki.id,
-            user_id: c}
+            user_id: user_id}
     end
 
     Collaborator.create(collaborators)
