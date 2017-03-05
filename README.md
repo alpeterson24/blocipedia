@@ -1,24 +1,11 @@
-# README
+# Blocipedia
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Rails CRUD application designed to build private or public wikis. Made with Rails 5.0.1, tested in development with SQlite3 and using PostgresSQL for production in Heroku. You can use the application [Here](https://boiling-depths-86160.herokuapp.com/)
 
-Things you may want to cover:
+![Blocipdia Screenshot](#"Blocipedia")
 
-* Ruby version
+## How to use
 
-* System dependencies
+Start by signing up or signing in on the welcome page. 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Then you can proceed to create some Public Wikis or Create Private Wikis and add collaborators.
