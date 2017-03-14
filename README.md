@@ -2,7 +2,7 @@
 
 This is a Rails CRUD application designed to build private or public wikis. Made with Rails 5.0.1, tested in development with SQlite3 and PostgresSQL for production in Heroku. You can use the application [here](https://boiling-depths-86160.herokuapp.com/)
 
-![Blocipdia Screenshot](https://github.com/alpeterson24/blocipedia/blob/master/app/assets/images/blocipedia_ss.png "Blocipedia")
+![Blocipedia Screenshot](https://github.com/alpeterson24/blocipedia/blob/master/app/assets/images/blocipedia_ss.png "Blocipedia")
 
 ## How to use
 
